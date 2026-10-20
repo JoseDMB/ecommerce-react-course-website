@@ -10,7 +10,7 @@ function ProductCard({ p }) {
                 <p className="product-card-price">${p.price}</p>
             </div>
             <div className="product-card-actions">
-                <Link className="btn btn-secondary">View Details</Link>
+                <Link className="btn btn-secondary" to={`products/${p.id}`}>View Details</Link>
                 <button className="btn btn-primary">Add to Cart</button>
             </div>
         </div>
