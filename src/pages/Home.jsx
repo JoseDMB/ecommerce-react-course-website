@@ -1,11 +1,14 @@
 
 import { getProducts } from "../data/products";
 import ProductCard from "../components/ProductCard";
+import { TemporalExamples } from "../components/TemporalExamples";
 function Home(){
     const products = getProducts();
     return(
         <div className="page">
+            
             <div className="home-hero">
+                <TemporalExamples/>
                 <h1 className="home-title">Welcome to ShopHub</h1>
                 <p className="home-subtitle">
                     Discover amazing products at great prices
