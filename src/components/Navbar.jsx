@@ -11,7 +11,7 @@ function Navbar(){
 
                 <div className="navbar-links">
                     <Link to="/" className="navbar-link">Home</Link>
-                    <Link to="/checkout" className="navbar-link">Checkout</Link>
+                    <Link to="/checkout" className="navbar-link">Cart</Link>
                 </div>
                 {/* si hay usuario muestra esto el navbar sino esto */}
                 <div className="navbar-auth">
